@@ -62,6 +62,17 @@ This project aims to detect glaucoma using fundus images and statistical data by
 | GBM                      | 0.702     | 0.703     | 0.695      | 0.699     |
 | Neural Network           | 0.620     | 0.622     | 0.610      | 0.616     |
 | Self-Supervised KD Model | 0.7065    | 0.7065    | **0.7065** | 0.7052    |
+## Image-based models
+| Model               | Accuracy | Precision | Recall   | F1-score |
+| ------------------- | -------- | --------- | -------- | -------- |
+| Logistic Regression | 0.70     | 0.75      | 0.75     | 0.67     |
+| Random Forest       | 0.67     | 0.75      | 0.75     | 0.67     |
+| **MobileNet**       | **0.83** | **0.88**  | **0.83** | **0.83** |
+| EfficientNet        | 0.75     | 0.72      | 0.72     | 0.72     |
+| ResNet50            | 0.679    | 0.69      | 0.70     | 0.67     |
+| DenseNet            | 0.74     | 0.70      | 0.70     | 0.70     |
+| CNN                 | 0.33     | 0.33      | 0.33     | 0.33     |
+
 
 
 ---
