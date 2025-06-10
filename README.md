@@ -51,12 +51,18 @@ This project aims to detect glaucoma using fundus images and statistical data by
 - Fused the probabilities of KNN and mobilenetV2
 ## 🧪 Results Snapshot
 
-| Model          | Dataset Type | Accuracy |
-|----------------|--------------|----------|
-| MobileNetV2    | Image        | ~90%     |
-| KNN            | Statistical  | ~85%     |
-| CNN            | Image        | Lower    |
-| GBM            | Statistical  | Lower    |
+| Model                    | Accuracy  | Precision | Recall     | F1-score  |
+| ------------------------ | --------- | --------- | ---------- | --------- |
+| Logistic Regression      | 0.599     | 0.600     | 0.607      | 0.6035    |
+| Decision Tree            | 0.590     | 0.591     | 0.601      | 0.596     |
+| Random Forest            | 0.585     | 0.586     | 0.574      | 0.580     |
+| SVM                      | 0.706     | 0.707     | 0.684      | 0.695     |
+| KNN                      | **0.780** | **0.750** | 0.690      | **0.719** |
+| XGBoost                  | 0.714     | 0.716     | 0.691      | 0.703     |
+| GBM                      | 0.702     | 0.703     | 0.695      | 0.699     |
+| Neural Network           | 0.620     | 0.622     | 0.610      | 0.616     |
+| Self-Supervised KD Model | 0.7065    | 0.7065    | **0.7065** | 0.7052    |
+
 
 ---
 
